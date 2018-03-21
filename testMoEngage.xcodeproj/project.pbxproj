@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20BBB4552062757A0075EE42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BBB4542062757A0075EE42 /* AppDelegate.swift */; };
+		20BBB4572062757A0075EE42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BBB4562062757A0075EE42 /* ViewController.swift */; };
+		20BBB45A2062757A0075EE42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BBB4582062757A0075EE42 /* Main.storyboard */; };
+		20BBB45C2062757A0075EE42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BBB45B2062757A0075EE42 /* Assets.xcassets */; };
+		20BBB45F2062757A0075EE42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BBB45D2062757A0075EE42 /* LaunchScreen.storyboard */; };
+		20BBB46A2062757B0075EE42 /* testMoEngageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BBB4692062757B0075EE42 /* testMoEngageTests.swift */; };
+		20BBB4752062757B0075EE42 /* testMoEngageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20BBB4742062757B0075EE42 /* testMoEngageUITests.swift */; };
+		20BBB56B20627B300075EE42 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 20BBB54F20627B300075EE42 /* LICENSE */; };
+		20BBB56C20627B300075EE42 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 20BBB55020627B300075EE42 /* CHANGELOG.md */; };
+		20BBB56D20627B300075EE42 /* libMORichNotification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BBB55320627B300075EE42 /* libMORichNotification.a */; };
+		20BBB56E20627B300075EE42 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 20BBB55420627B300075EE42 /* README.md */; };
+		20BBB56F20627B300075EE42 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 20BBB55820627B300075EE42 /* LICENSE */; };
+		20BBB57020627B300075EE42 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 20BBB55920627B300075EE42 /* CHANGELOG.md */; };
+		20BBB57120627B300075EE42 /* MOInboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BBB55E20627B300075EE42 /* MOInboxViewController.m */; };
+		20BBB57220627B300075EE42 /* MOInbox.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20BBB56020627B300075EE42 /* MOInbox.storyboard */; };
+		20BBB57320627B300075EE42 /* MOInboxTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BBB56120627B300075EE42 /* MOInboxTableViewCell.m */; };
+		20BBB57420627B300075EE42 /* MOInboxExposedConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BBB56320627B300075EE42 /* MOInboxExposedConstants.m */; };
+		20BBB57520627B300075EE42 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 20BBB56920627B300075EE42 /* README.md */; };
+		20BBB57620627B300075EE42 /* libMoEngageSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BBB56A20627B300075EE42 /* libMoEngageSDK.a */; };
+		20BBB57920627C020075EE42 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20BBB57820627C020075EE42 /* UserNotifications.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20BBB4662062757B0075EE42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20BBB4492062757A0075EE42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BBB4502062757A0075EE42;
+			remoteInfo = testMoEngage;
+		};
+		20BBB4712062757B0075EE42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20BBB4492062757A0075EE42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BBB4502062757A0075EE42;
+			remoteInfo = testMoEngage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20BBB4512062757A0075EE42 /* testMoEngage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testMoEngage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BBB4542062757A0075EE42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20BBB4562062757A0075EE42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20BBB4592062757A0075EE42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20BBB45B2062757A0075EE42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20BBB45E2062757A0075EE42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20BBB4602062757A0075EE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BBB4652062757B0075EE42 /* testMoEngageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testMoEngageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BBB4692062757B0075EE42 /* testMoEngageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testMoEngageTests.swift; sourceTree = "<group>"; };
+		20BBB46B2062757B0075EE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BBB4702062757B0075EE42 /* testMoEngageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testMoEngageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20BBB4742062757B0075EE42 /* testMoEngageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testMoEngageUITests.swift; sourceTree = "<group>"; };
+		20BBB4762062757B0075EE42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20BBB54C20627AF40075EE42 /* testMoEngage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testMoEngage-Bridging-Header.h"; sourceTree = "<group>"; };
+		20BBB54F20627B300075EE42 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		20BBB55020627B300075EE42 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		20BBB55220627B300075EE42 /* MORichNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MORichNotification.h; sourceTree = "<group>"; };
+		20BBB55320627B300075EE42 /* libMORichNotification.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMORichNotification.a; sourceTree = "<group>"; };
+		20BBB55420627B300075EE42 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		20BBB55720627B300075EE42 /* MOGeofenceHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOGeofenceHandler.h; sourceTree = "<group>"; };
+		20BBB55820627B300075EE42 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		20BBB55920627B300075EE42 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		20BBB55B20627B300075EE42 /* MOInboxPushDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOInboxPushDataModel.h; sourceTree = "<group>"; };
+		20BBB55C20627B300075EE42 /* MOInboxTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOInboxTableViewCell.h; sourceTree = "<group>"; };
+		20BBB55D20627B300075EE42 /* MOInboxExposedConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOInboxExposedConstants.h; sourceTree = "<group>"; };
+		20BBB55E20627B300075EE42 /* MOInboxViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOInboxViewController.m; sourceTree = "<group>"; };
+		20BBB55F20627B300075EE42 /* MOInbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOInbox.h; sourceTree = "<group>"; };
+		20BBB56020627B300075EE42 /* MOInbox.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MOInbox.storyboard; sourceTree = "<group>"; };
+		20BBB56120627B300075EE42 /* MOInboxTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOInboxTableViewCell.m; sourceTree = "<group>"; };
+		20BBB56220627B300075EE42 /* MOInboxViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOInboxViewController.h; sourceTree = "<group>"; };
+		20BBB56320627B300075EE42 /* MOInboxExposedConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOInboxExposedConstants.m; sourceTree = "<group>"; };
+		20BBB56520627B300075EE42 /* MOPayloadBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOPayloadBuilder.h; sourceTree = "<group>"; };
+		20BBB56620627B300075EE42 /* MONotificationCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MONotificationCategory.h; sourceTree = "<group>"; };
+		20BBB56720627B300075EE42 /* MOEHelperConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOEHelperConstants.h; sourceTree = "<group>"; };
+		20BBB56820627B300075EE42 /* MoEngage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoEngage.h; sourceTree = "<group>"; };
+		20BBB56920627B300075EE42 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		20BBB56A20627B300075EE42 /* libMoEngageSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMoEngageSDK.a; sourceTree = "<group>"; };
+		20BBB57820627C020075EE42 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20BBB44E2062757A0075EE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BBB57920627C020075EE42 /* UserNotifications.framework in Frameworks */,
+				20BBB56D20627B300075EE42 /* libMORichNotification.a in Frameworks */,
+				20BBB57620627B300075EE42 /* libMoEngageSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BBB4622062757B0075EE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BBB46D2062757B0075EE42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20BBB4482062757A0075EE42 = {
+			isa = PBXGroup;
+			children = (
+				20BBB4532062757A0075EE42 /* testMoEngage */,
+				20BBB4682062757B0075EE42 /* testMoEngageTests */,
+				20BBB4732062757B0075EE42 /* testMoEngageUITests */,
+				20BBB4522062757A0075EE42 /* Products */,
+				20BBB57720627C020075EE42 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20BBB4522062757A0075EE42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20BBB4512062757A0075EE42 /* testMoEngage.app */,
+				20BBB4652062757B0075EE42 /* testMoEngageTests.xctest */,
+				20BBB4702062757B0075EE42 /* testMoEngageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20BBB4532062757A0075EE42 /* testMoEngage */ = {
+			isa = PBXGroup;
+			children = (
+				20BBB4542062757A0075EE42 /* AppDelegate.swift */,
+				20BBB4562062757A0075EE42 /* ViewController.swift */,
+				20BBB4582062757A0075EE42 /* Main.storyboard */,
+				20BBB45B2062757A0075EE42 /* Assets.xcassets */,
+				20BBB45D2062757A0075EE42 /* LaunchScreen.storyboard */,
+				20BBB4602062757A0075EE42 /* Info.plist */,
+				20BBB54C20627AF40075EE42 /* testMoEngage-Bridging-Header.h */,
+				20BBB54D20627B300075EE42 /* MoEngageSDK */,
+			);
+			path = testMoEngage;
+			sourceTree = "<group>";
+		};
+		20BBB4682062757B0075EE42 /* testMoEngageTests */ = {
+			isa = PBXGroup;
+			children = (
+				20BBB4692062757B0075EE42 /* testMoEngageTests.swift */,
+				20BBB46B2062757B0075EE42 /* Info.plist */,
+			);
+			path = testMoEngageTests;
+			sourceTree = "<group>";
+		};
+		20BBB4732062757B0075EE42 /* testMoEngageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20BBB4742062757B0075EE42 /* testMoEngageUITests.swift */,
+				20BBB4762062757B0075EE42 /* Info.plist */,
+			);
+			path = testMoEngageUITests;
+			sourceTree = "<group>";
+		};
+		20BBB54D20627B300075EE42 /* MoEngageSDK */ = {
+			isa = PBXGroup;
+			children = (
+				20BBB54E20627B300075EE42 /* MORichNotification_V1.3.0 */,
+				20BBB55520627B300075EE42 /* MoEngageSDK */,
+			);
+			path = MoEngageSDK;
+			sourceTree = "<group>";
+		};
+		20BBB54E20627B300075EE42 /* MORichNotification_V1.3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				20BBB54F20627B300075EE42 /* LICENSE */,
+				20BBB55020627B300075EE42 /* CHANGELOG.md */,
+				20BBB55120627B300075EE42 /* MORichNotification */,
+				20BBB55420627B300075EE42 /* README.md */,
+			);
+			path = MORichNotification_V1.3.0;
+			sourceTree = "<group>";
+		};
+		20BBB55120627B300075EE42 /* MORichNotification */ = {
+			isa = PBXGroup;
+			children = (
+				20BBB55220627B300075EE42 /* MORichNotification.h */,
+				20BBB55320627B300075EE42 /* libMORichNotification.a */,
+			);
+			path = MORichNotification;
+			sourceTree = "<group>";
+		};
+		20BBB55520627B300075EE42 /* MoEngageSDK */ = {
+			isa = PBXGroup;
+			children = (
+				20BBB55620627B300075EE42 /* MOGeofence */,
+				20BBB55820627B300075EE42 /* LICENSE */,
+				20BBB55920627B300075EE42 /* CHANGELOG.md */,
+				20BBB55A20627B300075EE42 /* MOInbox */,
+				20BBB56420627B300075EE42 /* MOHeaders */,
+				20BBB56920627B300075EE42 /* README.md */,
+				20BBB56A20627B300075EE42 /* libMoEngageSDK.a */,
+			);
+			path = MoEngageSDK;
+			sourceTree = "<group>";
+		};
+		20BBB55620627B300075EE42 /* MOGeofence */ = {
+			isa = PBXGroup;
+			children = (
+				20BBB55720627B300075EE42 /* MOGeofenceHandler.h */,
+			);
+			path = MOGeofence;
+			sourceTree = "<group>";
+		};
+		20BBB55A20627B300075EE42 /* MOInbox */ = {
+			isa = PBXGroup;
+			children = (
+				20BBB55B20627B300075EE42 /* MOInboxPushDataModel.h */,
+				20BBB55C20627B300075EE42 /* MOInboxTableViewCell.h */,
+				20BBB55D20627B300075EE42 /* MOInboxExposedConstants.h */,
+				20BBB55E20627B300075EE42 /* MOInboxViewController.m */,
+				20BBB55F20627B300075EE42 /* MOInbox.h */,
+				20BBB56020627B300075EE42 /* MOInbox.storyboard */,
+				20BBB56120627B300075EE42 /* MOInboxTableViewCell.m */,
+				20BBB56220627B300075EE42 /* MOInboxViewController.h */,
+				20BBB56320627B300075EE42 /* MOInboxExposedConstants.m */,
+			);
+			path = MOInbox;
+			sourceTree = "<group>";
+		};
+		20BBB56420627B300075EE42 /* MOHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				20BBB56520627B300075EE42 /* MOPayloadBuilder.h */,
+				20BBB56620627B300075EE42 /* MONotificationCategory.h */,
+				20BBB56720627B300075EE42 /* MOEHelperConstants.h */,
+				20BBB56820627B300075EE42 /* MoEngage.h */,
+			);
+			path = MOHeaders;
+			sourceTree = "<group>";
+		};
+		20BBB57720627C020075EE42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20BBB57820627C020075EE42 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20BBB4502062757A0075EE42 /* testMoEngage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BBB4792062757B0075EE42 /* Build configuration list for PBXNativeTarget "testMoEngage" */;
+			buildPhases = (
+				20BBB44D2062757A0075EE42 /* Sources */,
+				20BBB44E2062757A0075EE42 /* Frameworks */,
+				20BBB44F2062757A0075EE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testMoEngage;
+			productName = testMoEngage;
+			productReference = 20BBB4512062757A0075EE42 /* testMoEngage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20BBB4642062757B0075EE42 /* testMoEngageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BBB47C2062757B0075EE42 /* Build configuration list for PBXNativeTarget "testMoEngageTests" */;
+			buildPhases = (
+				20BBB4612062757B0075EE42 /* Sources */,
+				20BBB4622062757B0075EE42 /* Frameworks */,
+				20BBB4632062757B0075EE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20BBB4672062757B0075EE42 /* PBXTargetDependency */,
+			);
+			name = testMoEngageTests;
+			productName = testMoEngageTests;
+			productReference = 20BBB4652062757B0075EE42 /* testMoEngageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20BBB46F2062757B0075EE42 /* testMoEngageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20BBB47F2062757B0075EE42 /* Build configuration list for PBXNativeTarget "testMoEngageUITests" */;
+			buildPhases = (
+				20BBB46C2062757B0075EE42 /* Sources */,
+				20BBB46D2062757B0075EE42 /* Frameworks */,
+				20BBB46E2062757B0075EE42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20BBB4722062757B0075EE42 /* PBXTargetDependency */,
+			);
+			name = testMoEngageUITests;
+			productName = testMoEngageUITests;
+			productReference = 20BBB4702062757B0075EE42 /* testMoEngageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20BBB4492062757A0075EE42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mito Europe Kft.";
+				TargetAttributes = {
+					20BBB4502062757A0075EE42 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					20BBB4642062757B0075EE42 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20BBB4502062757A0075EE42;
+					};
+					20BBB46F2062757B0075EE42 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20BBB4502062757A0075EE42;
+					};
+				};
+			};
+			buildConfigurationList = 20BBB44C2062757A0075EE42 /* Build configuration list for PBXProject "testMoEngage" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20BBB4482062757A0075EE42;
+			productRefGroup = 20BBB4522062757A0075EE42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20BBB4502062757A0075EE42 /* testMoEngage */,
+				20BBB4642062757B0075EE42 /* testMoEngageTests */,
+				20BBB46F2062757B0075EE42 /* testMoEngageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20BBB44F2062757A0075EE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BBB56E20627B300075EE42 /* README.md in Resources */,
+				20BBB45F2062757A0075EE42 /* LaunchScreen.storyboard in Resources */,
+				20BBB57520627B300075EE42 /* README.md in Resources */,
+				20BBB56C20627B300075EE42 /* CHANGELOG.md in Resources */,
+				20BBB57020627B300075EE42 /* CHANGELOG.md in Resources */,
+				20BBB56F20627B300075EE42 /* LICENSE in Resources */,
+				20BBB45C2062757A0075EE42 /* Assets.xcassets in Resources */,
+				20BBB56B20627B300075EE42 /* LICENSE in Resources */,
+				20BBB45A2062757A0075EE42 /* Main.storyboard in Resources */,
+				20BBB57220627B300075EE42 /* MOInbox.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BBB4632062757B0075EE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BBB46E2062757B0075EE42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20BBB44D2062757A0075EE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BBB57320627B300075EE42 /* MOInboxTableViewCell.m in Sources */,
+				20BBB57120627B300075EE42 /* MOInboxViewController.m in Sources */,
+				20BBB4572062757A0075EE42 /* ViewController.swift in Sources */,
+				20BBB57420627B300075EE42 /* MOInboxExposedConstants.m in Sources */,
+				20BBB4552062757A0075EE42 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BBB4612062757B0075EE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BBB46A2062757B0075EE42 /* testMoEngageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20BBB46C2062757B0075EE42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20BBB4752062757B0075EE42 /* testMoEngageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20BBB4672062757B0075EE42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20BBB4502062757A0075EE42 /* testMoEngage */;
+			targetProxy = 20BBB4662062757B0075EE42 /* PBXContainerItemProxy */;
+		};
+		20BBB4722062757B0075EE42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20BBB4502062757A0075EE42 /* testMoEngage */;
+			targetProxy = 20BBB4712062757B0075EE42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20BBB4582062757A0075EE42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20BBB4592062757A0075EE42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20BBB45D2062757A0075EE42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20BBB45E2062757A0075EE42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20BBB4772062757B0075EE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20BBB4782062757B0075EE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20BBB47A2062757B0075EE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GYMHK5C56;
+				INFOPLIST_FILE = testMoEngage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testMoEngage/MoEngageSDK/MORichNotification_V1.3.0/MORichNotification",
+					"$(PROJECT_DIR)/testMoEngage/MoEngageSDK/MoEngageSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.mito.testMoEngage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testMoEngage/testMoEngage-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20BBB47B2062757B0075EE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2GYMHK5C56;
+				INFOPLIST_FILE = testMoEngage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/testMoEngage/MoEngageSDK/MORichNotification_V1.3.0/MORichNotification",
+					"$(PROJECT_DIR)/testMoEngage/MoEngageSDK/MoEngageSDK",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.mito.testMoEngage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testMoEngage/testMoEngage-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20BBB47D2062757B0075EE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testMoEngageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.mito.testMoEngageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testMoEngage.app/testMoEngage";
+			};
+			name = Debug;
+		};
+		20BBB47E2062757B0075EE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testMoEngageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.mito.testMoEngageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/testMoEngage.app/testMoEngage";
+			};
+			name = Release;
+		};
+		20BBB4802062757B0075EE42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testMoEngageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.mito.testMoEngageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testMoEngage;
+			};
+			name = Debug;
+		};
+		20BBB4812062757B0075EE42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = testMoEngageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hu.mito.testMoEngageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = testMoEngage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20BBB44C2062757A0075EE42 /* Build configuration list for PBXProject "testMoEngage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BBB4772062757B0075EE42 /* Debug */,
+				20BBB4782062757B0075EE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BBB4792062757B0075EE42 /* Build configuration list for PBXNativeTarget "testMoEngage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BBB47A2062757B0075EE42 /* Debug */,
+				20BBB47B2062757B0075EE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BBB47C2062757B0075EE42 /* Build configuration list for PBXNativeTarget "testMoEngageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BBB47D2062757B0075EE42 /* Debug */,
+				20BBB47E2062757B0075EE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20BBB47F2062757B0075EE42 /* Build configuration list for PBXNativeTarget "testMoEngageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20BBB4802062757B0075EE42 /* Debug */,
+				20BBB4812062757B0075EE42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20BBB4492062757A0075EE42 /* Project object */;
+}
